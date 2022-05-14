@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/static/css/main.css" />
+        <link rel="icon" href="/static/css/icon.ico" />
+        <title>Carseek</title>
+        <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+            integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <section class="showcase">
+            <div class="video-container">
+                <video src="/static/css/video.mp4" autoplay muted loop></video>
+            </div>
+            <div class="content">
+                <h1>Find your next car</h1>
+            </div>
+        </section>
+
+        <section id="about">
+            <form id="the-form" class="search" method="POST">
+                <div class="box">
+                    <h3>Maker</h3>
+                        <label for="maker"></label>
+                        <input class="search-container"
+                            type="text"
+                            id="search-bar"
+                            name="maker"
+                            placeholder="Enter Maker"
+                            class="name-input"
+                        />
+                </div>
+                <div class="box">
+                    <h3>Model</h3>
+                        <label for="model"></label>
+                        <input class="search-container"
+                            type="text"
+                            id="search-bar"
+                            name="model"
+                            placeholder="Enter Model"
+                            class="model-input"
+                        />
+                </div>
+                <div class="box">
+                    <h3>Year</h3>
+                        <label for="year"></label>
+                        <input class = "search-container"
+                            type="text"
+                            id="search-bar"
+                            name="year"
+                            placeholder="Enter Year"
+                            class="year-input"
+                        />
+                </div>
+            </form>
+
+            <button class="btn" type="submit" form="the-form">Search</button>
+
+            <h2>winninghacks-team</h2>
+
+            <div class="social">
+                <a href="https://twitter.com/WinHacksCA" target="_blank"
+                    ><i class="fab fa-twitter fa-2x"></i
+                ></a>
+                <a href="http://facebook.com/WinHacksCA" target="_blank"
+                    ><i class="fab fa-facebook fa-2x"></i
+                ></a>
+                <a
+                    href="https://www.youtube.com/channel/UCMph1_SzSomH2cUF7j_YqUA"
+                    target="_blank"
+                    ><i class="fab fa-youtube fa-2x"></i
+                ></a>
+                <a
+                    href="https://www.linkedin.com/company/winhacks"
+                    target="_blank"
+                    ><i class="fab fa-linkedin fa-2x"></i
+                ></a>
+                <a href="https://instagram.com/winhacksca" target="_blank"
+                    ><i class="fab fa-instagram fa-2x"></i
+                ></a>
+            </div>
+        </section>
+        <script src="/static/script/index.js"></script>
+    </body>
+</html>
